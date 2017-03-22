@@ -1,0 +1,82 @@
+body {
+	background-color: white;
+	font-family: 'Lato', sans-serif;
+}
+
+.wrapper {
+	width: 80%;
+	
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.owner {
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.header {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.pane {
+	padding: 30px 50px;
+	background-color: #f0f4f4;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px white;
+	margin: 25px;
+}
+
+
+#intro {
+	font-size: 1.01em;
+}
+
+.contact {
+	text-align: center;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 1.3em;
+	margin-bottom: 10px;
+}
+
+#footer {
+	margin-top: 30px;
+	display: flex;
+	position:relative;
+	left:0px;
+	bottom:0px;
+	height:50px;
+	width:100%;
+	background:#f0f4f4;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+}
+
+#footer-text {
+	text-align: center;
+}
+
+
+
+
+.about {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.child-pane {
+	flex-grow: 1;
+	display: flex;
+    align-items: center; /* Vertical center alignment */
+    justify-content: center; /* Horizontal center alignment */
+
+}
+
+
